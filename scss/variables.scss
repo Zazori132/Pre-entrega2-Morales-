@@ -1,110 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.portada {
+  background-color: #f2f2f2;
+  padding: 2rem 0;
+  transition: background-color 0.3s ease;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
-  
-  a {
-    text-decoration: none;
+
+  h6 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-  
-    .logo img {
-      max-height: 50px;
-    }
-  
-    ul.nav {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-  
-      li {
-        display: inline-block;
-        margin-left: 1rem;
-  
-        a {
-          color: #fff;
-        }
-      }
-  
-      li:first-child {
-        margin-left: 0;
-      }
-    }
+}
+
+.portada:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.servicios {
+  background-color: #fff;
+  padding: 2rem 0;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    transition: font-size 0.3s ease;
   }
-  
-  .portada {
-    background-color: #f2f2f2;
-    padding: 2rem 0;
-  
-    h1 {
-      font-size: 3rem;
-      font-weight: normal;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    }
-  
-    h6 {
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    .card-title {
       font-size: 1.5rem;
-      font-weight: normal;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      margin-bottom: 0.5rem;
     }
-  }
-  
-  .portada-contenido {
-    .lead {
+
+    .card-text {
       font-size: 1.2rem;
     }
   }
-  
-  .servicios {
-    background-color: #fff;
-    padding: 2rem 0;
-  
-    h2 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-  
-    p {
-      font-size: 1.2rem;
-    }
-  
-    .card {
-      .card-title {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-      }
-  
-      .card-text {
-        font-size: 1.2rem;
-      }
-    }
-  }
-  
-  .video {
-    background-color: #f2f2f2;
-    padding: 2rem 0;
-  
-    .embed-responsive {
-      .embed-responsive-item {
-        height: 100%;
-      }
-    }
-  }
-  
-  .clientes {
-    background-color: #fff;
-    padding: 2rem 0;
-  
-    h2 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-  
-    p {
-      font-size: 1.2rem;
-    }
-  }
+}
+
+.servicios h2:hover {
+  font-size: 2.8rem;
+}
